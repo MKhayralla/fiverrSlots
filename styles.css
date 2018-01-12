@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "conthrax-sb" ;
+  src: url(conthrax-sb.ttf) ;
+}
+.logo{
+  font-family: conthrax-sb;
+  font-size: 26px;
+  height: 31px ;
+}
+#machine{
+  height: 31px ;
+}
+.left{
+  text-align: left ;
+}
+.right{
+  text-align: right ;
+}
+.centered{
+  text-align: center;
+}
+.arrows{
+  min-height: 31px;
+  min-width: 31px;
+  z-index: 1 ;
+}
