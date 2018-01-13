@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/jQuery-SlotMachine/dist/jquery.slotmachine.min.css">
@@ -10,49 +11,40 @@
   </head>
   <body>
     <div class="container">
+      <!--Welcoming message-->
+      <div class="row">
+        <div class="col-xs-12 alert alert-success">
+          <h3>Welcome to Re slot machine &nbsp;<small>hover over the word (re) to shuffle :</small> </h3>
+        </div>
+      </div>
+      <!--The slot machine part-->
       <div class="row" id="machine">
         <div class="right logo col-xs-3 col-sm-5">
           <div id="logo">
             Re
           </div>
         </div>
+        <!--The arrows are here-->
         <div id="image" class="col-xs-4 col-sm-2 arrows">
           <img src="assets/img/arrows2.png" class="img img-responsive arrows">
         </div>
         <div id="slot" class="left logo col-xs-5 col-sm-5">
-          <div class="">
-            One
-          </div>
-          <div class="">
-            Two
-          </div>
-          <div class="">
-            Three
-          </div>
-          <div class="">
-            four
-          </div>
-          <div class="">
-            five
-          </div>
-          <div class="">
-            six
-          </div>
-
+          <!--slot Divs will be added here-->
         </div>
 
       </div>
       <div class="row">
-        <div class="col-xs-12 centered alert alert-warning" id="description">
-
+        <div class="col-xs-12 centered" id="description">
+          <!--Here lays the description of each slot-->
         </div>
 
       </div>
     </div>
-
+    <!--required scripts-->
     <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
     <script src="bower_components/jQuery-SlotMachine/dist/jquery.slotmachine.min.js" charset="utf-8"></script>
+    <script src="templates.js" charset="utf-8"></script>
     <script src="index.js" charset="utf-8"></script>
   </body>
 </html>
