@@ -18,7 +18,7 @@
     z-index: -1 ;
   }
 }
-@media (min-width : 374px) and (max-width : 991px){
+@media (min-width : 768px) and (max-width : 991px){
   .logo{
     position: relative;
     top: 34px;
@@ -26,6 +26,17 @@
   .arrows{
     position: relative;
     left: -28px;
+    z-index: -1 ;
+  }
+}
+@media (min-width : 375px) and (max-width : 767px){
+  .logo{
+    position: relative;
+    top: 40px;
+  }
+  .arrows{
+    position: relative;
+    left: -35px;
     z-index: -1 ;
   }
 }

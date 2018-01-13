@@ -2,8 +2,8 @@ $(document).ready(()=>{
   $("#description").hide();
   var description = ['1','2','3','4','5','6'] ;
   var machine = $("#slot").slotMachine( {
-    active : 1 ,
-    delay : 200
+    active : 0 ,
+    delay : 500
   } );
   $("#logo").mouseenter(()=>{
     $("#description").hide();
