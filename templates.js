@@ -1,6 +1,6 @@
-var templates = [{label: 'One' , template : '<h3>This is number one</h3>'},
-{label: 'Two' , template : '<h1>This is number Two</h1>'},
-{label: 'Three' , template : '<big>This is number Three</big>'},
-{label: 'Four' , template : '<small>This is number Four</small>'},
-{label: 'Five' , template : '<p>This is number Five</p>'},
-{label: 'Six' , template : 'This is number Six'}] ;
+var templates = [{label: 'Buy' , template : '<h3>This is Rebuy</h3>'},
+{label: 'Sell' , template : '<h1>This is Resell</h1>'},
+{label: 'Make' , template : '<big>This is Remake</big>'},
+{label: 'Love' , template : '<small>This is Relove</small>'},
+{label: 'Walk' , template : '<p>This is Rewalk</p>'},
+{label: 'Do' , template : 'This is Redo'}] ;

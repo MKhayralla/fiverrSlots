@@ -7,49 +7,9 @@
   font-size: 36px;
   height: 41px ;
 }
-@media (min-width : 992px) {
-  .logo{
-    position: relative;
-    top: 45px;
-  }
-  .arrows{
-    position: relative;
-    left: -30px;
-    z-index: -1 ;
-  }
-}
-@media (min-width : 768px) and (max-width : 991px){
-  .logo{
-    position: relative;
-    top: 34px;
-  }
-  .arrows{
-    position: relative;
-    left: -28px;
-    z-index: -1 ;
-  }
-}
-@media (min-width : 375px) and (max-width : 767px){
-  .logo{
-    position: relative;
-    top: 40px;
-  }
-  .arrows{
-    position: relative;
-    left: -35px;
-    z-index: 1
-  }
-}
-@media (max-width : 374px) {
-  .logo{
-    position: relative;
-    top: 25px;
-  }
-  .arrows{
-    position: relative;
-    left: -24px;
-    z-index: -1 ;
-  }
+.arrows{
+  max-height: 45px;
+  z-index: -1 ;
 }
 #machine{
   height: 31px ;
@@ -65,9 +25,59 @@
 }
 #description {
   background-color: #5dbde9 ;
-  color: white ;
+  color: #E6E6FA ;
   font-size: 24px ;
   font-family: sans-serif;
   min-height: 20px;
   border-radius: 25px;
+}
+@media (max-width : 430px) {
+  .arrows {
+    position: relative;
+    left: -40% ;
+  }
+  #slot {
+    position: relative;
+    left: -34% ;
+  }
+}
+@media (max-width : 600px) and (min-width : 430px) {
+  .arrows {
+    position: relative;
+    left: -29% ;
+  }
+  #slot {
+    position: relative;
+    left: -33% ;
+  }
+}
+@media (max-width : 768px) and (min-width : 600px) {
+  .arrows {
+    position: relative;
+    left: -20% ;
+  }
+  #slot {
+    position: relative;
+    left: -34% ;
+  }
+}
+@media (max-width : 992px) and (min-width : 768px) {
+  .arrows {
+    position: relative;
+    left: -39% ;
+  }
+  #slot {
+    position: relative;
+    left: -16% ;
+  }
+}
+@media (min-width : 992px) {
+  .arrows {
+    position: relative;
+    left: -28% ;
+  }
+  #slot {
+    position: relative;
+    left: -17% ;
+  }
 }
